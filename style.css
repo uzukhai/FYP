@@ -8,7 +8,6 @@ body {
 .head {
     background-color: rgba(152, 245, 249, 0.5);
     margin: auto;
-    font-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 5px solid black;
+    border: 5px solid blue;
 
     width: 50%;
     height: 250px;
