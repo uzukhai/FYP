@@ -7,7 +7,7 @@ body {
 
 .head {
     background-color: rgba(152, 245, 249, 0.5);
-    margin: auto;
+    margin: 0px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
