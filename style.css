@@ -14,7 +14,7 @@ body {
 
     border: 5px solid black;
 
-    width: 100%;
+    width: 70%;
     height: 250px;
     animation: animate 2s forwards;
 }
@@ -29,28 +29,40 @@ body {
 .title {
     text-align: center;
     color: white;
-    font-size: 140%;
     font-family: 'Genshin', sans-serif;
+}
+
+.title h1 {
+    font-size: 200%;
 }
 
 .content {
     background-color: rgba(152, 245, 249, 0.5);
-    margin-top: 20px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
 
     border: 5px solid black;
 
-    width: 100%;
+    width: 50%;
     height: 250px;
 }
 
 form {
     text-align: center;
     color: white;
-    font-size: 140%;
+    font-size: 200%;
     font-family: 'Genshin';
+
+    width: 70%;
+}
+
+input .url {
+    border: 2px solid black;
+    width: 90%;
 }
 
 @font-face {
