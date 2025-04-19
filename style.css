@@ -4,24 +4,25 @@ html {
     padding: 0; /* Removes default padding */
     display: flex;
     flex-direction: column;
-
-    border-right: white 2px dashed;
-    border-left: white 2px dashed;
 }
 
 body {
     background-image: url('image/background-web.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
 
     border-top: white 2px dashed;
+    border-right: white 2px dashed;
+    border-left: white 2px dashed;
     margin: 0;
 }
 
 .head {
     background-color: rgba(152, 245, 249, 0.5);
     margin: auto;
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     padding: 2% 0%;
     display: flex;
     justify-content: center;
@@ -54,7 +55,8 @@ body {
 .content {
     background-color: rgba(152, 245, 249, 0.5);
     margin: auto;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 500px;
     padding: 2% 0%;
     display: flex;
     justify-content: center;
@@ -84,7 +86,12 @@ form {
 
 .url:hover {
     background-color: #E7E7E7;
-    color: white;
+    color: black;
+}
+
+input[type=text]{
+    font-family: 'Genshin';
+    color: black;
 }
 
 .submit {
@@ -94,7 +101,12 @@ form {
 
 .submit:hover {
     background-color: gray;
-    color: white;
+    color: gray;
+}
+
+input[type=submit]{
+    font-family: 'Genshin';
+    border-color: black;
 }
 
 .footer {
@@ -111,6 +123,7 @@ form {
     bottom: 0;
     left: 0;
     right: 0;
+    position: fixed;
 
     border: white 2px dashed;
 }
